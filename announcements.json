@@ -1,4 +1,5 @@
 {
+  "selenite-beta.vercel.app":  "alert('test announcement')",
   "templates": {
     "blockedpage": "var url='fakeurl';if(confirm('If you have recieved this alert, there is a high chance that your specific URL of Selenite has been blocked, Click OK to download your save and go to the new URL.')){downloadMainSave();window.location.href=url}",
     "genericalert": "alert('insert text.')"
